@@ -26,7 +26,7 @@ from datetime import datetime
 from time import sleep
 ct = datetime.now()
 n = ct.month
-bulan1 = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
+bulan1 = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'Desember']
 try:
     if n < 0 or n > 12:
         exit()
@@ -47,7 +47,7 @@ bulan = {'01': 'January',
    '05': 'May', 
    '06': 'June', 
    '07': 'July', 
-   '08': 'August, 
+   '08': 'August',
    '09': 'September', 
    '10': 'October', 
    '11': 'November', 
